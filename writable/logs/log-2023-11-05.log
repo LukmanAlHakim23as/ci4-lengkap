@@ -1,0 +1,95 @@
+INFO - 2023-11-05 12:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 12:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 12:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-05 12:51:01 --> mysqli_sql_exception: Table 'db-perpustakaan.tbl_kelas' doesn't exist in C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\app\Models\ModelKelas.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\app\Controllers\Auth.php(115): App\Models\ModelKelas->AllData()
+#6 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\CodeIgniter.php(919): App\Controllers\Auth->Register()
+#7 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-05 12:51:01 --> Table 'db-perpustakaan.tbl_kelas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kelas`
+ORDER BY `id_kelas` DESC', [], false)
+ 2 APPPATH\Models\ModelKelas.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Auth.php(115): App\Models\ModelKelas->AllData()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-05 12:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 12:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 12:51:33 --> Undefined array key "nama_siswa"
+in APPPATH\Controllers\Auth.php on line 221.
+ 1 APPPATH\Controllers\Auth.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_siswa"', 'C:\\Users\\ACER\\OneDrive\\Documents\\XAMPP\\htdocs\\webperpus\\app\\Controllers\\Auth.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-05 12:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 12:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 12:54:14 --> Undefined array key "nama_siswa"
+in APPPATH\Controllers\Auth.php on line 221.
+ 1 APPPATH\Controllers\Auth.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_siswa"', 'C:\\Users\\ACER\\OneDrive\\Documents\\XAMPP\\htdocs\\webperpus\\app\\Controllers\\Auth.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-05 13:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 13:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 13:10:36 --> Undefined array key "nama_siswa"
+in APPPATH\Controllers\Auth.php on line 221.
+ 1 APPPATH\Controllers\Auth.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_siswa"', 'C:\\Users\\ACER\\OneDrive\\Documents\\XAMPP\\htdocs\\webperpus\\app\\Controllers\\Auth.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-05 14:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 14:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 14:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-05 14:15:47 --> mysqli_sql_exception: Table 'db-perpustakaan.tbl_kelas' doesn't exist in C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\app\Models\ModelAnggota.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\app\Controllers\DashboardAnggota.php(28): App\Models\ModelAnggota->ProfileAnggota('7')
+#6 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\CodeIgniter.php(919): App\Controllers\DashboardAnggota->index()
+#7 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#8 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ACER\OneDrive\Documents\XAMPP\htdocs\webperpus\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-05 14:15:47 --> Table 'db-perpustakaan.tbl_kelas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota`
+LEFT JOIN `tbl_kelas` ON `tbl_kelas`.`id_kelas` = `tbl_anggota`.`id_kelas`
+WHERE `id_anggota` = :id_anggota:', [...], false)
+ 2 APPPATH\Models\ModelAnggota.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\DashboardAnggota.php(28): App\Models\ModelAnggota->ProfileAnggota('7')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\DashboardAnggota->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-05 14:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 15:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,183 @@
+INFO - 2023-11-02 08:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 08:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 13:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 13:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 13:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-02 13:21:42 --> Undefined variable: kelas
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelas', 'C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(109): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-02 13:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-02 13:22:01 --> Undefined variable: kelas
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelas', 'C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(109): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 13:22:42 --> Undefined variable: Kelas
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Kelas', 'C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(109): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 13:26:09 --> Undefined variable: kelas
+in APPPATH\Views\v_daftar_anggota.php on line 15.
+ 1 APPPATH\Views\v_daftar_anggota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelas', 'C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(109): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 13:31:14 --> Undefined variable: kelas
+in APPPATH\Views\v_daftar_anggota.php on line 15.
+ 1 APPPATH\Views\v_daftar_anggota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelas', 'C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(109): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 13:40:54 --> Undefined variable: kelas
+in APPPATH\Views\v_daftar_anggota.php on line 16.
+ 1 APPPATH\Views\v_daftar_anggota.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelas', 'C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(109): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 14:13:04 --> Undefined variable: kelas
+in APPPATH\Views\v_daftar_anggota.php on line 15.
+ 1 APPPATH\Views\v_daftar_anggota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kelas', 'C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\webperpus\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(109): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-02 14:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 14:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 14:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-02 15:10:54 --> "" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('kelas', 'Kelas', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Auth.php(115): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->Daftar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-02 15:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 15:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 16:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 16:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 16:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 16:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 16:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 16:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-02 16:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
